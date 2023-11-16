@@ -9,6 +9,6 @@ async function bootstrap() {
     preflightContinue: false,
     optionsSuccessStatus: 204,
   });
-  await app.listen(3001);
+  await app.listen(process.env.APP_PORT || 3001);
 }
 bootstrap();
