@@ -2,12 +2,12 @@ import { DataSource } from 'typeorm';
 
 export const connectionSource = new DataSource({
   type: 'postgres',
-  host: 'rajje.db.elephantsql.com',
+  host: 'suleiman.db.elephantsql.com',
   port: 5432,
-  username: 'tipwemad',
-  password: 'a6EPJiQmCxSQt8t8gBnFbbIry9bhuK2w',
-  database: 'tipwemad',
-  synchronize: false,
+  username: 'mqnrbicf',
+  password: 'e9XedXC16noTdl1MhGePk8Ce_AF1agbF',
+  database: 'mqnrbicf',
+  synchronize: true,
   entities: ['dist/**/*.entity{.ts,.js}'],
   migrations: ['src/migration/*.ts'],
 });
